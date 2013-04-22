@@ -28,5 +28,5 @@ dependencies {
         exclude group: 'org.eclipse.jdt.core.compiler', module: 'ecj'
     }
 
-    providedCompile 'javax:javaee-web-api:6.0'
+    compile 'org.mortbay.jetty:servlet-api:3.0.20100224'
 }
